@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input::placeholder{
+    color: rgb(31, 31, 49) !important;
+    font-size: 20px !important;
+
+}
+label{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btn1{
+    background-color: rgb(190, 195, 203) ;
+    font-size: 22px;
+    font-weight: bold;
+    /* color: rgb(31, 31, 49); */
+    color: white;
+    padding: 20px ;
+    margin: 10px 0px;
+}
+.btn1:hover{
+  background-color: rgb(178, 199, 224);
+  color: white;
+}
+.fa-trash{
+    /* background-color:red !important; */
+    color: rgb(140, 4, 4);
+    font-size: 35px !important;
+    /* position: relative;
+    left: 210px; */
+}
+.fa-list-check{
+  color: green;
+  font-size: 35px !important;
+  /* position: relative;
+  left: 100px; */
+}

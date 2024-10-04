@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmark</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: rgb(31, 31, 49);">
+    <div class="container my-5 pt-5 text-center">
+        <h1 class="text-light fs-1 text-start"> Book Marker </h1>
+        <hr style="height: 30px ;color: white;">
+        <h1 class="text-light fs-1 text-center mt-5 mb-5"> Enter Your BookMark </h1>
+
+        <label for="">Site Name</label>
+        <input type="text" class="form-control p-3 w-50 m-auto" id="sName" placeholder="Site Name">
+
+        <label for="">Site Url</label>
+        <input type="text" class="form-control p-3 w-50 m-auto" id="sUrl" placeholder="Site Url">
+        <div class="alert alert-danger mt-2 w-75 m-auto " id="ProductNameAlert">
+            <p>write a valid url</p>
+        </div>
+
+        <button onclick="add()" class="btn btn1 my-5 ">Add BookMark</button>
+
+
+    </div>
+    <div class="container ">
+        <table class="table  m-auto fs-4  ">
+            <thead>
+                <tr>
+                    <th>BookMark Name</th>
+                    <th>BookMark Link</th>
+                    <th>BookMark Delete</th>
+                </tr>
+            </thead>
+            <tbody id="bodydata">
+               
+            </tbody>
+        </table>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
